@@ -45,6 +45,7 @@ Users should be able to:
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 500, 700
 <br/>
+
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700
 
