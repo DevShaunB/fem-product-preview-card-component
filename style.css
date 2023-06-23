@@ -15,6 +15,7 @@
   --clr-heading: hsl(212, 21%, 14%);
   --clr-text: hsl(228, 12%, 48%);
   --clr-white: hsl(0, 0%, 100%);
+  --clr-dark: 0, 0%, 0%;
 
   /* FONTS */
   /* FONT FAMILY */
@@ -37,6 +38,10 @@ body {
   font-family: var(--ff-montserrat);
   background-color: var(--clr-bg);
   color: var(--clr-text);
+  padding: 1.75rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img,
@@ -45,9 +50,26 @@ picture {
   display: block;
 }
 
+#card {
+  width: 37.5rem;
+  background-color: var(--clr-white);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 0 1rem 1rem hsla(var(--clr-dark), 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.content {
+  padding: 2rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  text-wrap: balance;
 }
 
 .attribution a {
