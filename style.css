@@ -6,6 +6,25 @@
   padding: 0;
 }
 
+:root {
+  /* COLORS */
+  /* PRIMARY */
+  --clr-accent: hsl(158, 36%, 37%);
+  --clr-bg: hsl(30, 38%, 92%);
+  /* NEUTRAL */
+  --clr-heading: hsl(212, 21%, 14%);
+  --clr-text: hsl(228, 12%, 48%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /* FONTS */
+  /* FONT FAMILY */
+  --ff-montserrat: 'Montserrat', sans-serif;
+  --ff-fraunces: 'Fraunces', serif;
+  /* FONT WEIGHT */
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
+
 html,
 body {
   height: 100%;
@@ -14,10 +33,23 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-family: var(--ff-montserrat);
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
 }
 
 img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
