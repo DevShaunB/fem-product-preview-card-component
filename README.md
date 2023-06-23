@@ -36,6 +36,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-and-css-grid-2FMyWC2ilX](https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-and-css-grid-2FMyWC2ilX)
 - Live Site URL: [https://devshaunb.github.io/fem-product-preview-card-component](https://devshaunb.github.io/fem-product-preview-card-component)
 
 ## Reference
