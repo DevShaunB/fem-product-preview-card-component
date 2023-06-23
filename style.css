@@ -9,7 +9,9 @@
 :root {
   /* COLORS */
   /* PRIMARY */
-  --clr-accent: hsl(158, 36%, 37%);
+  --clr-accent: 158, 36%;
+  --clr-accent-normal: hsl(var(--clr-accent), 37%);
+  --clr-accent-dark: hsl(var(--clr-accent), 18%);
   --clr-bg: hsl(30, 38%, 92%);
   /* NEUTRAL */
   --clr-heading: hsl(212, 21%, 14%);
@@ -95,7 +97,7 @@ picture {
   font-family: var(--ff-fraunces);
   font-size: 2rem;
   font-weight: var(--fw-bold);
-  color: var(--clr-accent);
+  color: var(--clr-accent-normal);
 }
 
 .original-price {
@@ -113,11 +115,16 @@ picture {
   font-weight: var(--fw-bold);
   font-size: inherit;
   padding-block: 0.9rem;
-  background-color: var(--clr-accent);
+  background-color: var(--clr-accent-normal);
   color: var(--clr-white);
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  outline: transparent;
+}
+
+.cta:where(:hover, :focus) {
+  background-color: var(--clr-accent-dark);
 }
 
 .attribution {
