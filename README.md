@@ -31,7 +31,7 @@ Users should be able to:
 
 ![Product preview card component desktop screenshot](https://devshaunb.github.io/fem-product-preview-card-component/screenshots/desktop.png)
 
-![Product preview card component mobile screenshot](https://devshaunb.github.io/fem-product-preview-card-component/screenshots/desktop.png)
+![Product preview card component mobile screenshot](https://devshaunb.github.io/fem-product-preview-card-component/screenshots/mobile.png)
 
 
 ### Links
