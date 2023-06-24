@@ -123,18 +123,6 @@ picture {
   background-color: var(--clr-accent-dark);
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  position: absolute;
-  bottom: 1rem;
-  text-wrap: balance;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
